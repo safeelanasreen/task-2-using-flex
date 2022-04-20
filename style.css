@@ -36,10 +36,12 @@ div.card-header{
     box-sizing: border-box;
 }
 .card-body{
-    padding:10px;
+    padding-left:20px;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     height: 150px;
+        word-spacing: 8px;
+
 
 
 }
