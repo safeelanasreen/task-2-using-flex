@@ -10,7 +10,8 @@
 .row{
 flex-wrap: wrap;
 display: flex;
-justify-content: space-around;
+justify-content: space-evenly;
+
 }
 .card{
     width:40%;
@@ -23,9 +24,10 @@ justify-content: space-around;
     background-color: rgb(68, 65, 65);
     color: #ccc;
     text-align: center;
-    height: 100px;
-    margin-top: 0;
-    padding: 20px;
+    height: 150px;
+    
+    padding-top: 50px;
+    
 }
 div.card-header{
     font-size: 30px;
@@ -35,7 +37,9 @@ div.card-header{
 }
 .card-body{
     padding:10px;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    height: 150px;
 
 
 }
